@@ -1,17 +1,16 @@
 ---
-title: 'DOM Preview'
+title: 'Get High With Me'
 excerpt:
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Praesent elementum
   facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan
   sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/blog/hello-world/cover.webp'
+coverImage: '/assets/blog/get-high-with-me/get-high-with-me.png'
 date: '2020-03-16T05:35:07.322Z'
 author:
-  name: Tim Neutkens
-  picture: '/assets/blog/authors/tim.jpeg'
+  name: Artemii
 ogImage:
-  url: '/assets/blog/hello-world/cover.webp'
+  url: '/assets/blog/get-high-with-me/get-high-with-me.png'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
