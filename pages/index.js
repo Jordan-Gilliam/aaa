@@ -3,18 +3,18 @@ import MoreStories from '../components/more-stories'
 import HeroPost from '../components/hero-post'
 import Intro from '../components/intro'
 import Layout from '../components/layout'
-import { getAllPosts } from '../lib/api'
+import {getAllPosts} from '../lib/api'
 import Head from 'next/head'
-import { CMS_NAME } from '../lib/constants'
+import {DOM_NAME} from '../lib/constants'
 
-export default function Index({ allPosts }) {
+export default function Index({allPosts}) {
   const heroPost = allPosts[0]
   const morePosts = allPosts.slice(1)
   return (
     <>
       <Layout>
         <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
+          <title>Artemi y Anna {DOM_NAME}</title>
         </Head>
         <Container>
           <Intro />
@@ -46,6 +46,6 @@ export async function getStaticProps() {
   ])
 
   return {
-    props: { allPosts },
+    props: {allPosts},
   }
 }
