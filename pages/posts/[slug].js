@@ -34,7 +34,6 @@ export default function Post({post, preview}) {
               <PostHeader
                 title={post.title}
                 coverImage={post.coverImage}
-                date={post.date}
                 author={post.author}
               />
               <PostBody content={post.content} />
